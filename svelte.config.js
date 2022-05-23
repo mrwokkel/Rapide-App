@@ -1,5 +1,5 @@
 import Unocss from "unocss/vite";
-import adapter from "@sveltejs/adapter-auto";
+import adapter from "@sveltejs/adapter-static";
 import { extractorSvelte } from "@unocss/core";
 import preprocess from "svelte-preprocess";
 import presetAttributify from "@unocss/preset-attributify";
