@@ -1,0 +1,72 @@
+{
+    "extends": "./.svelte-kit/tsconfig.json",
+    "compilerOptions": {
+        "allowJs": true,
+        "checkJs": true,
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+        "lib": [
+            "es2020",
+            "DOM"
+        ],
+        "moduleResolution": "node",
+        "module": "es2020",
+        "resolveJsonModule": true,
+        "skipLibCheck": true,
+        "sourceMap": true,
+        "strict": true,
+        "target": "es2020",
+        "alwaysStrict": true,
+        "allowUnreachableCode": false,
+        "allowUnusedLabels": false,
+        "noFallthroughCasesInSwitch": true,
+        "noImplicitOverride": true,
+        "noImplicitReturns": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "paths": {
+            "$lib": [
+                "src/lib"
+            ],
+            "$lib/*": [
+                "src/lib/*"
+            ],
+            "$audio": [
+                "src/assets/audio"
+            ],
+            "$audio/*": [
+                "src/assets/audio/*"
+            ],
+            "$raster": [
+                "src/assets/rasters"
+            ],
+            "$raster/*": [
+                "src/assets/rasters/*"
+            ],
+            "$vector": [
+                "src/assets/vectors"
+            ],
+            "$vector/*": [
+                "src/assets/vectors/*"
+            ],
+            "$video": [
+                "src/assets/videos"
+            ],
+            "$video/*": [
+                "src/assets/videos/*"
+            ],
+            "$font": [
+                "src/fonts"
+            ],
+            "$font/*": [
+                "src/fonts/*"
+            ],
+            "$styles": [
+                "src/styles"
+            ],
+            "$styles/*": [
+                "src/styles/*"
+            ],
+        }
+    }
+}

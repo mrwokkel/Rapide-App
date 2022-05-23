@@ -1,0 +1,12 @@
+#* Include
+.DS_Store
+node_modules
+/build
+/.svelte-kit/*
+/package
+.env
+.env.*
+pnpm-lock.yaml
+
+#! Exclude
+!.env.example
